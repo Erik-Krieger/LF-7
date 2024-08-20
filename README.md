@@ -5,20 +5,30 @@ Connect the circuit as display below:
 - the **black** wire is connected to **ground**
 - the **blue** wire is connected to **GPIO 4**
 - the **resistor** has a value of **4.7kΩ**
+
 ![image](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/07/raspberry-pi-ds18b20-wiring_bb.png?w=1090&quality=100&strip=all&ssl=1)
+
 ## Step 2: Enable the 1Wire Protocol
 Execute the following command
 ```bash
 sudo raspi-config
 ```
 Select **Interface Options**
+
 ![image](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/07/rpi-interface-options.png?w=661&quality=100&strip=all&ssl=1)
+
 Select **1-Wire**
+
 ![image](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/07/1-wire-rpi-configuration-tool.png?w=661&quality=100&strip=all&ssl=1)
+
 And **Enable** it
+
 ![image](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/07/enable-1-wire-configuration-tool-rpi.png?w=661&quality=100&strip=all&ssl=1)
+
 Finally, select **Finish**, and then **reboot** the Raspberry Pi.
+
 ![image](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/07/reboot-rpi-configuration-tools.png?w=661&quality=100&strip=all&ssl=1)
+
 ## Step 3:  Create a new file, import the following code and let it run
 ```python
 import os
