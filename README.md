@@ -8,7 +8,7 @@ Connect the circuit as display below:
 
 ![image](https://i0.wp.com/randomnerdtutorials.com/wp-content/uploads/2023/07/raspberry-pi-ds18b20-wiring_bb.png?w=1090&quality=100&strip=all&ssl=1)
 
-## Step 2: Enable the 1Wire Protocol
+## Step 2: Enable the 1-Wire Protocol
 Execute the following command
 ```bash
 sudo raspi-config
